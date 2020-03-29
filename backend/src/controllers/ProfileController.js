@@ -1,7 +1,7 @@
 const connecction = require('../database/connection');
 
 module.exports = {
-    async indexedDB(resquest, response) {
+    async index(resquest, response) {
         const ong_id = resquest.headers.authorization;
 
         const incidents = await connecction('incidents')
