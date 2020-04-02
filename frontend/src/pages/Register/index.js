@@ -18,7 +18,7 @@ export default function Register(){
                     e ajude pessoas a encotrarem os casos da sia ONG
                 </p>
 
-                <Link className='back-link' to='/register'>
+                <Link className='back-link' to='/'>
                     <FiArrowLeft sixe={16} color="#E02041"/>
                     Não Tenho Cadastro
                 </Link>
