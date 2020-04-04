@@ -71,7 +71,7 @@ export default function NewIncident(){
                   />
             
             
-            <input placeholder="UF" style={{width:80}}/>
+          
             <button className="button" type="submit">Cadastrar</button>
 
         </form>
